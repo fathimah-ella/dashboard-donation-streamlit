@@ -62,8 +62,8 @@ def get_indonesian_month_order():
 
 @st.cache_data
 def load_data():
-    df_qris = pd.read_excel("D:\\KP\\sobatberbagi.com_dashboard\\data\\transaksi_qris.xlsx", skiprows=1)
-    df_manual = pd.read_excel("D:\\KP\\sobatberbagi.com_dashboard\\data\\transaksi_manual.xlsx", skiprows=1)
+    df_qris = pd.read_excel("data/transaksi_qris.xlsx", skiprows=1)
+    df_manual = pd.read_excel("data/transaksi_manual.xlsx", skiprows=1)
     df = clean_and_merge_transaksi(df_qris, df_manual)
     
     # Tambahkan kolom hari dan bulan dalam Bahasa Indonesia
