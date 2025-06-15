@@ -94,4 +94,4 @@ df_qris, df_manual = load_data()
 df_clean = clean_and_merge_transaksi(df_qris, df_manual)
 
 # Simpan hasilnya
-df_clean.to_excel("D:/KP/sobatberbagi.com_dashboard/data/data_bersih.xlsx", index=False)
+df_clean.to_excel("data/data_bersih.xlsx", index=False)
