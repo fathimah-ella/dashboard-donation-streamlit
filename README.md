@@ -21,7 +21,7 @@ Non-profit organizations, especially those in the Zakat/Donation sector, can lev
 ## How to Run the Dashboard
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/fathimah-ella/dashboard-donation-streamlit)
+    git clone https://github.com/fathimah-ella/dashboard-donation-streamlit
     cd src
     ```
 2.  **Install dependencies:**
